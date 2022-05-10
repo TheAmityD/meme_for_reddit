@@ -10,7 +10,7 @@ public class DesktopLauncher {
 		config.setForegroundFPS(60);
 		config.setResizable(false);
 		config.setWindowedMode(500, 500);
-		config.setTitle("Made by u/thewinnt");
+		config.setTitle("Made by u/thewinnt, forked by TheAmityD");
 		new Lwjgl3Application(new MemeApp(), config);
 	}
 }

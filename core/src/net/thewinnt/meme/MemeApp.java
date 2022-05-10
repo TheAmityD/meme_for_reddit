@@ -34,8 +34,8 @@ public class MemeApp extends ApplicationAdapter {
 		batch.begin();
 		batch.draw(img, 0, 0, 500, 500);  // draw the background
 		// draw the text
-		FontUtils.drawCenteredText(font, batch, "Making a meme\nwith Photoshop", 375, 375);
-		FontUtils.drawCenteredText(font, batch, "Making a meme\nwith code", 375, 125);
+		FontUtils.drawCenteredText(font, batch, "You're making\na meme", 375, 375);
+		FontUtils.drawCenteredText(font, batch, "You have to\nuse code", 375, 125);
 		batch.end();
 	}
 	
